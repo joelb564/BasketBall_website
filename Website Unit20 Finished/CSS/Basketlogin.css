@@ -1,0 +1,285 @@
+/*This is for the login*/ 
+
+
+body {
+overflow: scroll;
+width: 100%;
+top: -20px;
+right: -40px;
+bottom: -40px;
+width: auto;
+height: auto;
+background-image: url(images/Basketlog.jpg);
+background-size: cover;
+}
+
+.head{ 
+
+  position: absolute;
+  float: left;
+}
+
+div.basket-ballheader{
+  text-align: center;
+  font-family: arial, sans serif;
+      color: rgb(255, 255, 255);
+      font-size: 21pt;
+      border: 0px;
+      padding: 0px;
+      margin: 20px;
+      align-self: center;
+  
+                  
+}    /*this is for the header*/
+
+
+
+
+input[type=text], input[type=password] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+button {
+background-color: #4CAF50;
+color: black;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+}
+
+button:hover {
+opacity: 0.8;
+}
+
+.cancelbtn {
+width: auto;
+padding: 10px 18px;
+background-color: #f44336;
+}
+
+.imgcontainer {
+text-align: center;
+margin: 24px 0 12px 0;
+}
+
+img.avatar {
+width: 40%;
+border-radius: 50%;
+}
+
+.container {
+padding: 16px;
+}
+
+span.psw {
+float: right;
+padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+span.psw {
+   display: block;
+   float: none;
+}
+.cancelbtn {
+   width: 100%;
+}
+}
+
+
+* {
+box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+padding: 16px;
+background-color: rgb(5, 4, 4);
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+background: #f1f1f100;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+background-color: #ddd;
+outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+border: 1px solid #f1f1f1;
+margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+background-color: #4CAF50;
+color: rgb(0, 0, 0);
+padding: 16px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+}
+
+.registerbtn:hover {
+opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+background-color: #f1f1f1;
+text-align: center;
+}
+.textitle {
+color: rgba(102, 94, 94, 0.856);
+}
+
+.text {
+color: white;
+font-size: 17px;
+
+}
+
+
+* {
+box-sizing: border-box;
+}
+
+/* style the container */
+.container {
+position: relative;
+border-radius: 5px;
+background-color: #f2f2f246;
+padding: 50px 0 30px 0;
+margin: 150px 770px 0 10px;
+} 
+
+/* style inputs and link buttons */
+input,
+.btn {
+width: 100%;
+padding: 12px;
+border: none;
+border-radius: 4px;
+margin: 10px 0;
+opacity: 0.85;
+display: inline-block;
+font-size: 17px;
+line-height: 20px;
+text-decoration: none; /* remove underline from links */
+}
+
+input:hover,
+.btn:hover {
+opacity: 1;
+}
+
+/* adds colour matching to fb, twitter and google logos */
+.fb {
+background-color: #3B5998;
+color: white;
+}
+
+.twitter {
+background-color: #55ACEE;
+color: white;
+}
+
+.google {
+background-color: #dd4b39;
+color: white;
+}
+
+/* style the submit button */
+input[type=button] {
+background-color: #4CAF50;
+color: white;
+cursor: pointer;
+}
+
+input[type=button]:hover {
+background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+float: left;
+width: 50%;
+margin: auto;
+padding: 0 50px;
+margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* vertical line */
+.vl {
+position: absolute;
+left: 50%;
+transform: translate(-50%);
+border: 2px solid #ddd;
+height: 225px;
+}
+
+/* text inside the vertical line */
+.vl-innertext {
+position: absolute;
+top: 50%;
+transform: translate(-50%, -50%);
+background-color: #f1f1f1;
+border: 1px solid #ccc;
+border-radius: 50%;
+padding: 8px 10px;
+}
+.hide-md-lg {
+display: none;
+}
+
+.bottom-container {
+text-align: center;
+background-color: rgba(102, 102, 102, 0.438);
+border-radius: 0px 0px 4px 4px;
+margin-bottom: 0%;
+}
+
+@media screen and (max-width: 650px) {
+.col {
+  width: 100%;
+  padding: 20px;
+}
+/* hide the vertical line */
+.vl {
+  display: none;
+}
+/* show the hidden text on small screens */
+.hide-md-lg {
+  display: block;
+  text-align: center;
+}
+}
