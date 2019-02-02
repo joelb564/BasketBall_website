@@ -1,64 +1,54 @@
-
-div.basket-ballheader{
-    text-align: center;
-    font-family: arial, sans serif;
-        color: rgb(255, 255, 255);
-        font-size: 21pt;
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
-        align-self: center;
-    
-                    
-} 
-
-
+div.basket-ballheader {
+  text-align: center;
+  font-family: arial, sans serif;
+  color: rgb(255, 255, 255);
+  font-size: 21pt;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  align-self: center;
+}
 
 body {
-    font-size: 16pt;
-    background-image: url("images/carbon_fibre.jpg");
-    color: white;
-    
-    
+  font-size: 16pt;
+  background-image: url("images/carbon_fibre.jpg");
+  color: white;
 }
 /*This is the code for the navigation bar*/
 .nav {
-    color: white;
-    list-style-type: none;
-    padding: 0;
-    background-color: #282828;
-    position: -webkit-sticky; /*  This enables the code to works in Safari */
-    position: sticky;
-    top: 0;
+  color: white;
+  list-style-type: none;
+  padding: 0;
+  background-color: #282828;
+  position: -webkit-sticky; /*  This enables the code to works in Safari */
+  position: sticky;
+  top: 0;
 }
 
 .nav > li {
-    display: inline-block;
-    padding: 0 55px 0 55px;
-    text-align: center;
+  display: inline-block;
+  padding: 0 55px 0 55px;
+  text-align: center;
 }
 
 .nav > li > a {
-    
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    text-align: center;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
 }
 
 li a:hover {
-    background-color: #0066ba;
+  background-color: #0066ba;
 }
 
-
 .dropbtn {
-  background-color: #282828de; 
+  background-color: #282828de;
   color: white;
   font-size: 20pt;
   border: none;
   padding: 0 80px 0 80px;
 }
-
 
 .dropdown {
   position: relative;
@@ -70,7 +60,7 @@ li a:hover {
   position: absolute;
   background-color: #282828de;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -79,22 +69,35 @@ li a:hover {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-
 }
 
-.dropdown-content a:hover {background-color: #0066ba;}
+.dropdown-content a:hover {
+  background-color: #0066ba;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-.dropdown:hover .dropbtn {background-color: #0066ba;}
+.dropdown:hover .dropbtn {
+  background-color: #0066ba;
+}
 
 /*this is for the slide show*/
 
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
-
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
 
 .slideshow-container {
   max-width: 600px;
@@ -103,7 +106,8 @@ img {vertical-align: middle;}
 }
 
 /* this is for the buttons on the slide show */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -122,8 +126,9 @@ img {vertical-align: middle;}
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -158,7 +163,8 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -171,24 +177,36 @@ img {vertical-align: middle;}
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
 }
-
 
 /*this is for the login page*/
 
-input[type=text], input[type=password] {
+input[type="text"],
+input[type="password"] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -198,7 +216,7 @@ input[type=text], input[type=password] {
 }
 
 button {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: black;
   padding: 14px 20px;
   margin: 8px 0;
@@ -239,14 +257,13 @@ span.psw {
 /* this edits the slide show and takes away the buttons if on a smaller screen */
 @media screen and (max-width: 300px) {
   span.psw {
-     display: block;
-     float: none;
+    display: block;
+    float: none;
   }
   .cancelbtn {
-     width: 100%;
+    width: 100%;
   }
 }
-
 
 * {
   box-sizing: border-box;
@@ -259,7 +276,8 @@ span.psw {
 }
 
 /* This changes the look of the text field */
-input[type=text], input[type=password] {
+input[type="text"],
+input[type="password"] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -268,11 +286,11 @@ input[type=text], input[type=password] {
   background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=password]:focus {
+input[type="text"]:focus,
+input[type="password"]:focus {
   background-color: #ddd;
   outline: none;
 }
-
 
 hr {
   border: 1px solid #f1f1f1;
@@ -281,7 +299,7 @@ hr {
 
 /* This changes the colour of the submit button */
 .registerbtn {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: rgb(0, 0, 0);
   padding: 16px 20px;
   margin: 8px 0;
@@ -312,10 +330,7 @@ a {
 .text {
   color: white;
   font-size: 17px;
-
 }
-
-
 
 * {
   box-sizing: border-box;
@@ -327,7 +342,7 @@ a {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px 0 30px 0;
-} 
+}
 
 /* style inputs and link buttons */
 input,
@@ -349,14 +364,13 @@ input:hover,
   opacity: 1;
 }
 
-
 .fb {
-  background-color: #3B5998;
+  background-color: #3b5998;
   color: white;
 }
 
 .twitter {
-  background-color: #55ACEE;
+  background-color: #55acee;
   color: white;
 }
 
@@ -366,13 +380,13 @@ input:hover,
 }
 
 /* style the submit button */
-input[type=button] {
-  background-color: #4CAF50;
+input[type="button"] {
+  background-color: #4caf50;
   color: white;
   cursor: pointer;
 }
 
-input[type=button]:hover {
+input[type="button"]:hover {
   background-color: #45a049;
 }
 
@@ -424,33 +438,31 @@ input[type=button]:hover {
     width: 100%;
     margin-top: 0;
   }
-  
+
   .vl {
     display: none;
   }
- 
+
   .hide-md-lg {
     display: block;
     text-align: center;
   }
 }
 
-
 /*for the Favourate player pages*/
 .redheader {
   color: red;
   page-break-before: always;
   margin-bottom: -2%;
-  
 }
 
-.textboarder{
+.textboarder {
   margin: 200px;
   text-align: justify;
   margin-top: 0%;
 }
 
-.Playername{
+.Playername {
   text-align: center;
   color: red;
 }
